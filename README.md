@@ -1,8 +1,8 @@
 # ngx-ws-example
 
-Demo example for [ngx-ws](https://www.npmjs.com/package/ngx-ws)
+Demo [angular](https://angular.dev/) project example for [ngx-ws](https://www.npmjs.com/package/ngx-ws)
 
-## Initialize
+## 📋 Log & Example
 
 ```shell
 pnpm i @angular/cli -g
@@ -15,7 +15,10 @@ ng generate library lib2 --skip-install
 pnpm i
 ng build app1 && ng build app2 && ng build lib1 && ng build lib2
 
-pnpm i ngx-ws -g
-ngx-ws --build
-
+# Usage
+pnpm i ngx-ws -g # Install globally
+ngx-ws --build # create angular-{workspace,project}.yaml files ...
+pnpm --package=ngx-ws@latest dlx ngx-ws --build # ... or using dlx
+ngx-ws -v # create angular.json
+pnpm --package=ngx-ws@latest dlx ngx-ws -v # create angular.json using dlx
 ```
