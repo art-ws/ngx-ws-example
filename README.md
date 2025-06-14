@@ -1,6 +1,6 @@
 # ngx-ws-example
 
-Demo [angular](https://angular.dev/) project example for [ngx-ws](https://www.npmjs.com/package/ngx-ws)
+Demo [angular](https://angular.dev/) project for [ngx-ws](https://www.npmjs.com/package/ngx-ws)
 
 ## 📋 Log & Example
 
